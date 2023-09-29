@@ -1,0 +1,25 @@
+$color-1: #182434; // Color principal
+$color-2: #6d829b; // Color secundario
+$color-3: #8d98aa; // Color terciario
+$color-4: #a3afbc; // Color cuaternario
+$color-5: #b3bdca; // Color quinario
+$color-6: #dcd9d8; // Color sextario
+
+// Gama cromática
+$color-7: lighten($color-1, 15%); // Un tono más claro del color principal
+$color-8: darken($color-1, 15%); // Un tono más oscuro del color principal
+
+$color-9: lighten($color-2, 15%); // Un tono más claro del color secundario
+$color-10: darken($color-2, 15%); // Un tono más oscuro del color secundario
+
+$color-11: lighten($color-3, 15%); // Un tono más claro del color terciario
+$color-12: darken($color-3, 15%); // Un tono más oscuro del color terciario
+
+$color-13: lighten($color-4, 15%); // Un tono más claro del color cuaternario
+$color-14: darken($color-4, 15%); // Un tono más oscuro del color cuaternario
+
+$color-15: lighten($color-5, 15%); // Un tono más claro del color quinario
+$color-16: darken($color-5, 15%); // Un tono más oscuro del color quinario
+
+$color-17: lighten($color-6, 15%); // Un tono más claro del color sextario
+$color-18: darken($color-6, 15%); // Un tono más oscuro del color sextario

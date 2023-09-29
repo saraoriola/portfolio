@@ -1,4 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
+import "./colors.scss"
 
 const theme = extendTheme({
   fonts: {
@@ -9,14 +10,12 @@ const theme = extendTheme({
   useSystemColorMode: false, 
   colors: {
     light: {
-      primary: "#007bff",
-      secondary: "#6c757d",
-      
+      primary:"#dcd9d8", 
+      secondary: "#b3bdca", 
     },
     dark: {
-      primary: "#64a0e6",
-      secondary: "#ced4da",
-      
+      primary: "#182434", 
+      secondary: "#6d829b", 
     },
   },
 });
