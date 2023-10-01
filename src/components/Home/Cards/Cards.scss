@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Agrandir Grand Light';
+    src: url('../assets/fonts/AgrandirGrandLight.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.text {
+font-family: 'Agrandir Grand Light';
+font-size: 20px;
+}
+
+.custom-button-project {
+    height: 2rem !important;
+    width: 15rem !important;
+    border-radius: 100px !important;
+    background-color: #292929 !important; /* Fondo negro en estado normal */
+    color: #AABBCC !important; /* Texto azul en estado normal */
+    font-family: 'Agrandir Regular', sans-serif !important;
+    border: none !important;
+    cursor: pointer !important;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Sombra suave en estado normal */
+  }
+  
+  .custom-button-project:hover {
+    background-color: #AABBCC !important; /* Fondo azul al hacer hover */
+    border: none !important;
+    color: #292929 !important; /* Texto negro al hacer hover */
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al hacer hover */
+  }
+  
+  .custom-button-project:active {
+    background-color: #AABBCC !important; /* Fondo azul al hacer click */
+    border: none !important;
+    color: #292929 !important; /* Texto negro al hacer click */
+    box-shadow: none; /* Elimina la sombra al hacer click */
+  }
+  

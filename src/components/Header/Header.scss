@@ -6,14 +6,14 @@
 }
 
 .custom-button {
-  height: 40px !important;
-  width: 150px !important;
+  height: 2rem !important;
+  width: 10rem !important;
   border-radius: 100px !important;
-  background-color:  #292929 !important;
-  color:  #CCDCED!important;
+  background-color: #292929 !important;
+  color: #CCDCED !important;
   font-family: 'Agrandir Regular', sans-serif !important;
   border: none !important;
-  border: 2px solid  #CCDCED !important;
+  border: 2px solid #CCDCED !important;
   cursor: pointer !important;
   transition: background-color 0.5s, color 0.5s, transform 0.5s !important;
 }
@@ -33,7 +33,7 @@
 
 .header-line {
   border: none;
-  border-top: 1px solid #CCC; 
+  border-top: 1px solid #f2f2f2;
   width: 100%;
-  margin-top: 10px; 
+  margin-top: 1rem;
 }

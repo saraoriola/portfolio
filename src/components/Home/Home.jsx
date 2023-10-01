@@ -2,6 +2,7 @@ import { Box, Image, Text } from '@chakra-ui/react';
 import React from 'react';
 import './Home.scss';
 import aste from "../../assets/images/aste.svg"
+import Cards from './Cards/Cards';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
           <Image className='circle' src={aste}></Image>
         </Text>
       </div>
+      <Cards/>
     </Box>
   );
 };
