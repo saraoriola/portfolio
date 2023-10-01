@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Agrandir Regular';
+  src: url('../../assets/fonts/AgrandirRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .custom-button {
   height: 40px !important;
@@ -5,20 +11,23 @@
   border-radius: 100px !important;
   background-color:  #292929 !important;
   color:  #CCDCED!important;
-  font-family: "Agrandir Wide Light" !important;
+  font-family: 'Agrandir Regular', sans-serif !important;
   border: none !important;
   border: 2px solid  #CCDCED !important;
   cursor: pointer !important;
-  transition: background-color 0.3s, color 0.3s, transform 0.2s !important;
+  transition: background-color 0.5s, color 0.5s, transform 0.5s !important;
 }
 
 .custom-button:hover {
   background-color: #AABBCC !important;
-  color: #FFFFFF !important;
+  border: none !important;
+  color: #292929 !important;
+  transition: background-color 0.5s, color 0.5s, transform 0.5s !important;
 }
 
 .custom-button:active {
   background-color: #8899AA !important;
+  border: none !important;
   transform: scale(0.95) !important;
 }
 
