@@ -5,20 +5,20 @@
     font-style: normal;
   }
 
-.h1 {
+  .h1 {
     font-family: 'Agrandir Grand Light', sans-serif !important;
     color: #f2f2f2;
-    font-size: 116px;
+    font-size: 7.25rem; 
     line-height: 1;
-    letter-spacing: 17px;
-  }
+    letter-spacing: 1.0625rem; 
+}
 
-  .circle {
-    display: inline-flex; 
-    width: 110px; 
-    height: 110px; 
+.circle {
+    display: inline-flex;
+    width: 6.875rem;
+    height: 6.875rem; 
     justify-content: center;
     align-items: center;
-    margin-left: 10px; 
+    margin-left: 0.625rem; 
     vertical-align: middle;
-  }
+}
