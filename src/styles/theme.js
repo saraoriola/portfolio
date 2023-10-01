@@ -6,16 +6,23 @@ const theme = extendTheme({
     body: "Montserrat, sans-serif",
     heading: "Montserrat, sans-serif",
   },
-  initialColorMode: "light", 
-  useSystemColorMode: false, 
+  initialColorMode: "light",
+  useSystemColorMode: false,
   colors: {
     light: {
-      primary:"#dcd9d8", 
-      secondary: "#b3bdca", 
+      primary: "#007bff",
+      secondary: "#6c757d",
     },
     dark: {
-      primary: "#182434", 
-      secondary: "#6d829b", 
+      primary: "#64a0e6",
+      secondary: "#ced4da",
+    },
+  },
+  styles: {
+    global: {
+      body: {
+        bg: "#292929", 
+      },
     },
   },
 });
