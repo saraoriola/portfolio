@@ -23,32 +23,30 @@
     margin-left: 0.625rem; /* Margen izquierdo grande */
     vertical-align: middle;
   }
-  
-  /* Ajustar estilos para pantallas más pequeñas (como Mac) */
-  @media screen and (max-width: 1200px) {
+
+
+@media screen and (max-width: 1200px) {
     .h1 {
-      font-size: 5rem; /* Tamaño de fuente más pequeño */
-      line-height: 1.2; /* Espaciado entre líneas más pequeño */
+      font-size: 4vw; 
+      line-height: 1.2; 
     }
   
     .circle {
-      width: 5rem; /* Tamaño del círculo más pequeño */
-      height: 5rem; /* Tamaño del círculo más pequeño */
-      margin-left: 0.625rem; /* Margen izquierdo más pequeño */
+      width: 8%; 
+      height: 8%; 
+      margin-left: 1%; 
     }
   }
   
-  /* Ajustar estilos para pantallas aún más pequeñas (como Windows) */
   @media screen and (max-width: 992px) {
     .h1 {
-      font-size: 3.5rem; /* Tamaño de fuente más pequeño */
-      line-height: 1.2; /* Espaciado entre líneas más pequeño */
+      font-size: 3.5vw; 
     }
   
     .circle {
-      width: 4rem; /* Tamaño del círculo aún más pequeño */
-      height: 4rem; /* Tamaño del círculo aún más pequeño */
-      margin-left: 0.625rem; /* Margen izquierdo aún más pequeño */
+      width: 6%; 
+      height: 6%;
+      margin-left: 1%; 
     }
   }
   
