@@ -1,8 +1,12 @@
+import { Text } from '@chakra-ui/react'
 import React from 'react'
+import "./Home.scss"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <Text className='hola'>
+      Hola
+    </Text>
   )
 }
 

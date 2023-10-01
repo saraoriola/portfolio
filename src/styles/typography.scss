@@ -1,145 +1,55 @@
-// Variables de estilo de fuente
-$font-family-agrandir-wide-light: "Agrandir Wide Light", sans-serif;
-$font-family-agrandir-wide-black-italic: "Agrandir Wide Black Italic", sans-serif;
-$font-family-agrandir-tight: "Agrandir Tight", sans-serif;
-$font-family-agrandir-thin-italic: "Agrandir Thin Italic", sans-serif;
-$font-family-agrandir-text-bold: "Agrandir Text Bold", sans-serif;
-$font-family-agrandir-regular: "Agrandir Regular", sans-serif;
-$font-family-agrandir-narrow: "Agrandir Narrow", sans-serif;
-$font-family-agrandir-grand-light: "Agrandir Grand Light", sans-serif;
-$font-family-agrandir-grand-heavy: "Agrandir Grand Heavy", sans-serif;
-
-// Define el @font-face para cada estilo de fuente Agrandir
 @font-face {
   font-family: 'Agrandir Wide Light';
-  src: url('../assets/fonts/Agrandir\ Grand\ Light\ 300.otf') format('opentype');
+  src: url('../assets/fonts/Agrandir-Wide-Light-300.otf') format('opentype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Agrandir Wide Black Italic';
-  src: url('../assets/fonts/._Agrandir-WideBlackItalic.otf') format('opentype');
+  src: url('../assets/fonts/Agrandir-Narrow-400.otf') format('opentype');
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Agrandir Tight';
-  src: url('../assets/fonts/._Agrandir-Tight.otf') format('opentype');
+  src: url('../assets/fonts/Agrandir-Regular-400.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Agrandir Thin Italic';
-  src: url('../assets/fonts/._Agrandir-ThinItalic.otf') format('opentype');
+  src: url('../assets/fonts/Agrandir-Text-Bold-700.otf') format('opentype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Agrandir Text Bold';
-  src: url('../assets/fonts/._Agrandir-TextBold.otf') format('opentype');
+  src: url('../assets/fonts/Agrandir-Thin-Italic-100.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Agrandir Regular';
-  src: url('../assets/fonts/._Agrandir-Regular.otf') format('opentype');
+  src: url('../assets/fonts/Agrandir-Tight-400.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Agrandir Narrow';
-  src: url('../assets/fonts/._Agrandir-Narrow.otf') format('opentype');
+  src: url('../assets/fonts/AgrandirNarrow.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Agrandir Grand Light';
-  src: url('../assets/fonts/._Agrandir-GrandLight.otf') format('opentype');
+  src: url('../assets/fonts/Agrandir-Wide-Light-300.otf') format('opentype');
   font-weight: 100;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'Agrandir Grand Heavy';
-  src: url('../assets/fonts/._Agrandir-GrandHeavy.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-h1 {
-  font-family: $font-family-agrandir-wide-light;
-  font-weight: 100;
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-family: $font-family-agrandir-wide-black-italic;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 2rem;
-}
-
-h3 {
-  font-family: $font-family-agrandir-tight;
-  font-weight: normal;
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-family: $font-family-agrandir-thin-italic;
-  font-weight: normal;
-  font-style: italic;
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-family: $font-family-agrandir-text-bold;
-  font-weight: 700;
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-family: $font-family-agrandir-regular;
-  font-weight: normal;
-  font-size: 1rem;
-}
-
-p {
-  font-family: $font-family-agrandir-regular;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.small {
-  font-family: $font-family-agrandir-regular;
-  font-size: 0.875rem;
-  font-weight: 400;
-}
-
-p strong {
-  font-weight: 700;
-}
-
-.small strong {
-  font-weight: 700;
-}
-
-p em {
-  font-style: italic;
-}
-
-.small em {
-  font-style: italic;
-}
-
-p strong em {
-  font-weight: 700;
-  font-style: italic;
 }
