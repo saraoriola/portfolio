@@ -11,6 +11,7 @@ function Header() {
         <Image alt="Logo" w="sm" src={logo} />
         <Button className="custom-button">Porfolio</Button>
       </Flex>
+      <hr className="header-line" />
     </Box>
   );
 }

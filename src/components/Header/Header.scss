@@ -21,10 +21,16 @@
 .custom-button:hover {
   background-color: #AABBCC !important;
   color: #FFFFFF !important;
-  transform: scale(1.05) !important;
 }
 
 .custom-button:active {
   background-color: #8899AA !important;
   transform: scale(0.95) !important;
+}
+
+.header-line {
+  border: none;
+  border-top: 1px solid #CCC; 
+  width: 100%;
+  margin-top: 10px; 
 }
