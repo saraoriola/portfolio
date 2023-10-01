@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react';
 import ReactGoogleFonts from "react-google-fonts";
 import theme from "./styles/theme";
-import "./styles/typography.scss";
 
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
