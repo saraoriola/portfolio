@@ -1,102 +1,145 @@
-$font-size-h1: 2.5rem;
-$font-size-h2: 2rem;
-$font-size-h3: 1.75rem;
-$font-size-h4: 1.5rem;
-$font-size-h5: 1.25rem;
-$font-size-h6: 1rem;
-$font-size-paragraph: 1rem;
-$font-size-small: 0.875rem;
+// Variables de estilo de fuente
+$font-family-agrandir-wide-light: "Agrandir Wide Light", sans-serif;
+$font-family-agrandir-wide-black-italic: "Agrandir Wide Black Italic", sans-serif;
+$font-family-agrandir-tight: "Agrandir Tight", sans-serif;
+$font-family-agrandir-thin-italic: "Agrandir Thin Italic", sans-serif;
+$font-family-agrandir-text-bold: "Agrandir Text Bold", sans-serif;
+$font-family-agrandir-regular: "Agrandir Regular", sans-serif;
+$font-family-agrandir-narrow: "Agrandir Narrow", sans-serif;
+$font-family-agrandir-grand-light: "Agrandir Grand Light", sans-serif;
+$font-family-agrandir-grand-heavy: "Agrandir Grand Heavy", sans-serif;
 
-$font-family-heading: "Montserrat", sans-serif;
-$font-family-text: "Montserrat", sans-serif;
+// Define el @font-face para cada estilo de fuente Agrandir
+@font-face {
+  font-family: 'Agrandir Wide Light';
+  src: url('../assets/fonts/Agrandir\ Grand\ Light\ 300.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
 
-$font-weight-thin: 100;
-$font-weight-extralight: 200;
-$font-weight-light: 300;
-$font-weight-regular: 400;
-$font-weight-medium: 500;
-$font-weight-semibold: 600;
-$font-weight-bold: 700;
-$font-weight-extrabold: 800;
-$font-weight-black: 900;
+@font-face {
+  font-family: 'Agrandir Wide Black Italic';
+  src: url('../assets/fonts/._Agrandir-WideBlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-family-heading;
-  font-weight: $font-weight-regular;
+@font-face {
+  font-family: 'Agrandir Tight';
+  src: url('../assets/fonts/._Agrandir-Tight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agrandir Thin Italic';
+  src: url('../assets/fonts/._Agrandir-ThinItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Agrandir Text Bold';
+  src: url('../assets/fonts/._Agrandir-TextBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agrandir Regular';
+  src: url('../assets/fonts/._Agrandir-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agrandir Narrow';
+  src: url('../assets/fonts/._Agrandir-Narrow.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agrandir Grand Light';
+  src: url('../assets/fonts/._Agrandir-GrandLight.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agrandir Grand Heavy';
+  src: url('../assets/fonts/._Agrandir-GrandHeavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
 }
 
 h1 {
-  font-size: $font-size-h1;
+  font-family: $font-family-agrandir-wide-light;
+  font-weight: 100;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: $font-size-h2;
+  font-family: $font-family-agrandir-wide-black-italic;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: $font-size-h3;
+  font-family: $font-family-agrandir-tight;
+  font-weight: normal;
+  font-size: 1.75rem;
 }
 
 h4 {
-  font-size: $font-size-h4;
+  font-family: $font-family-agrandir-thin-italic;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 h5 {
-  font-size: $font-size-h5;
+  font-family: $font-family-agrandir-text-bold;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
 h6 {
-  font-size: $font-size-h6;
-}
-
-h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
-  font-weight: $font-weight-bold; 
-}
-
-h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
-  font-style: italic;
-}
-
-h1 strong em, h2 strong em, h3 strong em, h4 strong em, h5 strong em, h6 strong em {
-  font-weight: $font-weight-bold;
-  font-style: italic;
+  font-family: $font-family-agrandir-regular;
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 p {
-    font-family: $font-family-text;
-    font-size: $font-size-paragraph;
-    font-weight: $font-weight-regular; 
-  }
-  
-  .small {
-    font-family: $font-family-text;
-    font-size: $font-size-small;
-    font-weight: $font-weight-regular; 
-  }
-  
-  p strong {
-    font-weight: $font-weight-bold; 
-  }
-  
-  .small strong {
-    font-weight: $font-weight-bold;
-  }
-  
-  p em {
-    font-style: italic;
-  }
-  
-  .small em {
-    font-style: italic;
-  }
-  
-  p strong em {
-    font-weight: $font-weight-bold;
-    font-style: italic;
-  }
-  
-  .small strong em {
-    font-weight: $font-weight-bold;
-    font-style: italic;
-  }
-  
+  font-family: $font-family-agrandir-regular;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.small {
+  font-family: $font-family-agrandir-regular;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+p strong {
+  font-weight: 700;
+}
+
+.small strong {
+  font-weight: 700;
+}
+
+p em {
+  font-style: italic;
+}
+
+.small em {
+  font-style: italic;
+}
+
+p strong em {
+  font-weight: 700;
+  font-style: italic;
+}

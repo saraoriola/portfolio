@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Agrandir Wide Light';
+  src: url('../../assets/fonts/Agrandir\ Wide\ Light\ 300.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+.custom-button {
+  height: 40px !important;
+  width: 150px !important;
+  border-radius: 100px !important;
+  background-color:  #292929 !important;
+  color:  #CCDCED!important;
+  font-family: "Agrandir Wide Light" !important;
+  border: none !important;
+  border: 2px solid  #CCDCED !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s !important;
+}
+
+.custom-button:hover {
+  background-color: #AABBCC !important;
+  color: #FFFFFF !important;
+  transform: scale(1.05) !important;
+}
+
+.custom-button:active {
+  background-color: #8899AA !important;
+  transform: scale(0.95) !important;
+}
