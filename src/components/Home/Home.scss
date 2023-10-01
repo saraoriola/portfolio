@@ -1,12 +1,24 @@
 @font-face {
-    font-family: 'Agrandir Narrow';
-    src: url('../../assets/fonts/AgrandirNarrow.otf') format('opentype');
-    font-weight: normal;
+    font-family: 'Agrandir Grand Light';
+    src: url('../../assets/fonts/AgrandirGrandLight.otf') format('opentype');
+    font-weight: 100;
     font-style: normal;
   }
 
-.hola {
-    font-family: 'Agrandir Narrow', sans-serif !important;
-    color: aliceblue;
+.h1 {
+    font-family: 'Agrandir Grand Light', sans-serif !important;
+    color: #f2f2f2;
+    font-size: 116px;
+    line-height: 1;
+    letter-spacing: 17px;
   }
-  
+
+  .circle {
+    display: inline-flex; 
+    width: 110px; 
+    height: 110px; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px; 
+    vertical-align: middle;
+  }
