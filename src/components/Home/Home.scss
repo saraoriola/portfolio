@@ -5,48 +5,21 @@
     font-style: normal;
   }
   
-/* Estilos predeterminados para pantallas grandes */
-.h1 {
+  .h1 {
     font-family: 'Agrandir Grand Light', sans-serif !important;
     color: #f2f2f2;
-    font-size: 7.25rem; /* Tamaño de fuente grande */
-    line-height: 1;
-    letter-spacing: 1.0625rem; /* Espaciado entre letras grande */
+    font-size: 800%; /* Tamaño de fuente en porcentaje */
+    line-height: 100%; /* Line-height en porcentaje */
+    letter-spacing: 1%; /* Espaciado entre letras en porcentaje */
   }
   
   .circle {
     display: inline-flex;
-    width: 6.875rem; /* Tamaño del círculo grande */
-    height: 6.875rem; /* Tamaño del círculo grande */
+    width: 5%; /* Tamaño del círculo en porcentaje */
+    height: 5%; /* Tamaño del círculo en porcentaje */
     justify-content: center;
     align-items: center;
-    margin-left: 0.625rem; /* Margen izquierdo grande */
+    margin-left: 1%; /* Margen izquierdo en porcentaje */
     vertical-align: middle;
-  }
-
-
-@media screen and (max-width: 1200px) {
-    .h1 {
-      font-size: 4vw; 
-      line-height: 1.2; 
-    }
-  
-    .circle {
-      width: 8%; 
-      height: 8%; 
-      margin-left: 1%; 
-    }
-  }
-  
-  @media screen and (max-width: 992px) {
-    .h1 {
-      font-size: 3.5vw; 
-    }
-  
-    .circle {
-      width: 6%; 
-      height: 6%;
-      margin-left: 1%; 
-    }
   }
   
