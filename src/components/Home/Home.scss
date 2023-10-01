@@ -5,21 +5,20 @@
     font-style: normal;
   }
   
-  .h1 {
+.h1 {
     font-family: 'Agrandir Grand Light', sans-serif !important;
     color: #f2f2f2;
-    font-size: 800%; /* Tamaño de fuente en porcentaje */
-    line-height: 100%; /* Line-height en porcentaje */
-    letter-spacing: 1%; /* Espaciado entre letras en porcentaje */
+    font-size: 7.25rem; 
+    line-height: 1;
+    letter-spacing: 1.0625rem; 
   }
   
   .circle {
     display: inline-flex;
-    width: 5%; /* Tamaño del círculo en porcentaje */
-    height: 5%; /* Tamaño del círculo en porcentaje */
+    width: 6.875rem;
+    height: 6.875rem; 
     justify-content: center;
     align-items: center;
-    margin-left: 1%; /* Margen izquierdo en porcentaje */
+    margin-left: 0.625rem;
     vertical-align: middle;
   }
-  
