@@ -5,21 +5,50 @@
     font-style: normal;
   }
   
-  .h1 {
+/* Estilos predeterminados para pantallas grandes */
+.h1 {
     font-family: 'Agrandir Grand Light', sans-serif !important;
     color: #f2f2f2;
-    font-size: 7.25rem; 
+    font-size: 7.25rem; /* Tamaño de fuente grande */
     line-height: 1;
-    letter-spacing: 1.0625rem; 
+    letter-spacing: 1.0625rem; /* Espaciado entre letras grande */
   }
   
   .circle {
     display: inline-flex;
-    width: 6.875rem; 
-    height: 6.875rem;
+    width: 6.875rem; /* Tamaño del círculo grande */
+    height: 6.875rem; /* Tamaño del círculo grande */
     justify-content: center;
     align-items: center;
-    margin-left: 0.50rem; 
+    margin-left: 0.625rem; /* Margen izquierdo grande */
     vertical-align: middle;
+  }
+  
+  /* Ajustar estilos para pantallas más pequeñas (como Mac) */
+  @media screen and (max-width: 1200px) {
+    .h1 {
+      font-size: 5rem; /* Tamaño de fuente más pequeño */
+      line-height: 1.2; /* Espaciado entre líneas más pequeño */
+    }
+  
+    .circle {
+      width: 5rem; /* Tamaño del círculo más pequeño */
+      height: 5rem; /* Tamaño del círculo más pequeño */
+      margin-left: 0.625rem; /* Margen izquierdo más pequeño */
+    }
+  }
+  
+  /* Ajustar estilos para pantallas aún más pequeñas (como Windows) */
+  @media screen and (max-width: 992px) {
+    .h1 {
+      font-size: 3.5rem; /* Tamaño de fuente más pequeño */
+      line-height: 1.2; /* Espaciado entre líneas más pequeño */
+    }
+  
+    .circle {
+      width: 4rem; /* Tamaño del círculo aún más pequeño */
+      height: 4rem; /* Tamaño del círculo aún más pequeño */
+      margin-left: 0.625rem; /* Margen izquierdo aún más pequeño */
+    }
   }
   
